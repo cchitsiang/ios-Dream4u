@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/PICircularProgressView" "${PODS_ROOT}/Headers/Public/PPHelpMe" "${PODS_ROOT}/Headers/Public/PPRevealSideViewController" "${PODS_ROOT}/Headers/Public/PayPal-iOS-SDK" "${PODS_ROOT}/Headers/Public/iCarousel"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/PayPal-iOS-SDK/PayPalMobile"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/FXBlurView" -isystem "${PODS_ROOT}/Headers/Public/PICircularProgressView" -isystem "${PODS_ROOT}/Headers/Public/PPHelpMe" -isystem "${PODS_ROOT}/Headers/Public/PPRevealSideViewController" -isystem "${PODS_ROOT}/Headers/Public/PayPal-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Public/iCarousel"
+OTHER_LDFLAGS = -ObjC -l"PayPalMobile" -l"Pods-AFNetworking" -l"Pods-FXBlurView" -l"Pods-PICircularProgressView" -l"Pods-PPHelpMe" -l"Pods-PPRevealSideViewController" -l"Pods-PayPal-iOS-SDK" -l"Pods-iCarousel" -l"c++" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

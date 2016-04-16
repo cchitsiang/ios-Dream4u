@@ -1,0 +1,5 @@
+#include "Pods-PPRevealSideViewController.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/PPRevealSideViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/PICircularProgressView" "${PODS_ROOT}/Headers/Public/PPHelpMe" "${PODS_ROOT}/Headers/Public/PPRevealSideViewController" "${PODS_ROOT}/Headers/Public/PayPal-iOS-SDK" "${PODS_ROOT}/Headers/Public/iCarousel"
+OTHER_LDFLAGS = ${PODS_PPREVEALSIDEVIEWCONTROLLER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
